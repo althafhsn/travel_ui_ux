@@ -1,13 +1,13 @@
 // NAVIGATION
 export const NAV_LINKS = [
-  { href: '/', key: 'home', label: 'Home' },
-  { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
-  { href: '/', key: 'services', label: 'Services' },
-  { href: '/', key: 'pricing ', label: 'Pricing ' },
-  { href: '/', key: 'contact_us', label: 'Contact Us' },
+  { href: '/', key: 'home', label: 'Home' ,},
+  { href: '/', key: 'about', label: 'About' },
+  { href: '/', key: 'careers', label: 'Careers' },
+  { href: '/', key: 'social_responsibility', label: 'Social Responsibility ' },
+  { href: '/', key: 'contact', label: 'Contact' },
 ];
 
-// CAMP SECTION
+// About SECTION
 export const PEOPLE_URL = [
   '/person-1.png',
   '/person-2.png',
@@ -18,33 +18,76 @@ export const PEOPLE_URL = [
 // FEATURES SECTION
 export const FEATURES = [
   {
-    title: 'Real maps can be offline',
-    icon: '/map.svg',
+    title: 'Proven Track Record',
+    icon: '/resons/medel.png',
     variant: 'green',
     description:
-      'We provide a solution for you to be able to use our application when climbing, yes offline maps you can use at any time there is no signal at the location',
+      'Years of experience in managing high profile events and tours speaks of our reliability and expertise.',
   },
   {
-    title: 'Set an adventure schedule',
-    icon: '/calendar.svg',
+    title: 'Comprehensive Services',
+    icon: '/resons/puzzle.png',
     variant: 'green',
     description:
-      "Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion",
+      "From initial planning and in destination support, to post-trip feedback, we cover every aspect of travel management.",
   },
   {
-    title: 'Technology using augment reality',
-    icon: '/tech.svg',
+    title: 'Innovative Technology',
+    icon: '/resons/lightbulb.png',
     variant: 'green',
     description:
-      'Technology uses augmented reality as a guide to your hiking trail in the forest to the top of the mountain. Already supported by the latest technology without an internet connection',
+      'We leverage on the latest technology to enhance coordination and efficiency in tour operations.',
   },
   {
-    title: 'Many new locations every month',
-    icon: '/location.svg',
+    title: 'Personalized Approach',
+    icon: '/resons/person.png',
     variant: 'orange',
     description:
-      'Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing',
+      'We customize and provide personalized services to suit the unique needs of every traveler.',
   },
+  {
+    title: 'Local Expertise',
+    icon: '/resons/location.png',
+    variant: 'orange',
+    description:
+      'Our team has extensive knowledge of each destination, providing insider tips and recommendations.',
+  },
+  {
+    title: 'Customized Itineraries',
+    icon: '/resons/checklist.png',
+    variant: 'orange',
+    description:
+      'We offer access to exclusive experiences, from traditional dining to unique safaris.',
+  },
+  {
+    title: 'Global Network',
+    icon: '/resons/globe.png',
+    variant: 'orange',
+    description:
+      'Our connections span renowned accommodation partners and cruise lines worldwide.',
+  },
+  {
+    title: 'Unique Experiences',
+    icon: '/resons/star.png',
+    variant: 'orange',
+    description:
+      "We offer access to exclusive experiences, from traditional dining to unique safaris.",
+  },
+  {
+    title: 'Memorable Destinations',
+    icon: '/resons/landmark.png',
+    variant: 'orange',
+    description:
+      "From the exotic to the serene, we take you to the world's most sought-after locations.",
+  },
+  {
+    title: 'Dedicated Staff',
+    icon: '/resons/team.png',
+    variant: 'orange',
+    description:
+      'Our dedicated staff offers 24/7 support to ensure seamless, stress-free travel.',
+  },
+
 ];
 
 // FOOTER SECTION

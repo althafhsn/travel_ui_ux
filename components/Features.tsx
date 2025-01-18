@@ -17,26 +17,28 @@ const Features = () => {
         </div>
 
         <div className="z-20 flex w-full flex-col lg:w-[60%]">
-          <div className='relative'>
-            <Image
-              src="/camp.svg"
-              alt="camp"
-              width={50}
-              height={50}
-              className="absolute left-[-5px] top-[-28px] w-10 lg:w-[50px]"
-            />
-            <h2 className="bold-40 lg:bold-64">Our Features</h2>
+          <div className="relative">
+            <p className="uppercase regular-18 -mt-1 mb-3 text-green-50">
+              Top 10 Reasons Why We Are Your Perfect
+            </p>
+            <h2 className="bold-40 lg:bold-64">Travel Partner!</h2>
           </div>
-          <ul className="mt-10 grid gap-10 md:grid-cols-2 lg:mg-20 lg:gap-20">
-            {FEATURES.map((feature) => (
-              <FeatureItem 
-                key={feature.title}
-                title={feature.title} 
-                icon={feature.icon}
-                description={feature.description}
-              />
-            ))}
-          </ul>
+
+          {/* Added a container div with fixed height and custom scrollbar styling */}
+          <div className="relative h-[90vh] mt-10 ">
+            <div className="absolute inset-0 overflow-y-auto [&::-webkit-scrollbar]:hidden [-ms-overflow-style:'none'] [scrollbar-width:none]">
+              <ul className="grid gap-10 md:grid-cols-2 lg:gap-20 pr-4">
+                {FEATURES.map((feature) => (
+                  <FeatureItem
+                    key={feature.title}
+                    title={feature.title}
+                    icon={feature.icon}
+                    description={feature.description}
+                  />
+                ))}
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </section>

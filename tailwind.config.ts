@@ -32,9 +32,14 @@ module.exports = {
       backgroundImage: {
         'bg-img-1': "url('/img-1.png')",
         'bg-img-2': "url('/img-2.png')",
+        'bg-inbound': "url('/landing/inbond.jpg')",
+        'bg-outbound': "url('/landing/outbound.jpg')",
+        'bg-ts-connect': "url('/landing/ts-connect.jpg')",
+        'bg-services': "url('/landing/services-bg.jpg')",
         'feature-bg': "url('/feature-bg.png')",
         pattern: "url('/pattern.png')",
         'pattern-2': "url('/pattern-bg.png')",
+        'image-pattern' : "url('/landing/egypt-honeymoon.jpg')"
       },
       screens: {
         xs: '400px',
